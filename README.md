@@ -88,7 +88,7 @@ The models were evaluated using standard metrics such as:
 | Model   | Accuracy  | F1-Score | Training Time | VRAM Used |
 |---------|-----------|----------|---------------|-----------|
 | BERT    | 89%       | 0.86     | 15 hours      | 6 GB      |
-| Phi-3   | 78.72%    | 0.7871   | 5 days        | 42 GB     |
+| Phi-3   | 78.72%    | 0.7871   | 5 days        | 4.2 GB     |
 
 While Phi-3 uses memory reduction techniques, it lags in accuracy compared to BERT, mainly due to its limited number of trainable parameters (0.25% vs. 100% for BERT).
 
