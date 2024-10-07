@@ -6,10 +6,13 @@
 - [Evaluation Metrics and Results](#evaluation-metrics-and-results)
 - [Conclusion](#conclusion)
 - [Environment Setup](#environment-setup)
+- [References](#references)
 
-## Introduction
+## Introduction to Automatic Classification with Causal Large Language Models (LLMs)
 
 This project explores the use of a **causal Large Language Model (LLM)**, the **Phi-3** model, for the **automatic classification of tweets**. **LLMs**, such as **GPT**, **LLaMA**, or **Mixtral**, are primarily known for their performance in **text generation tasks**, but they can also be adapted for **text classification tasks**, such as sentiment classification in tweets.
+
+Although **Phi-3** is technically a **Small Language Model (SLM)** due to its smaller scale, the term **LLM** has been employed in this document for the sake of clarity and to align with broader industry terminology, enhancing comprehension and **SEO** optimization.
 
 This README aims to provide a comprehensive and detailed guide for researchers and developers who wish to replicate this experiment or use a similar CLM model like Phi-3 for text classification tasks.
 
@@ -276,5 +279,17 @@ pip install -r requirements.txt
 
 This section will allow users to quickly set up the necessary environment to run the notebook and successfully complete the tweet classification project.
 
-# Keywords:
+# References
+
+- Devlin, J., et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
+- Microsoft Azure AI Blog. (2024). Introducing Phi-3: Redefining what’s possible with SLMs.[https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/)
+- Vaswani, A., et al. (2017). Attention is All You Need. [https://arxiv.org/html/1706.03762v7](https://arxiv.org/html/1706.03762v7)
+- Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., & Chen, W. (2022). LoRA: Low-Rank Adaptation of Large Language Models. [https://ar5iv.labs.arxiv.org/html/2106.09685](https://ar5iv.labs.arxiv.org/html/2106.09685)
+- Dettmers, T., Pagnoni, A., Holtzman, A., & Zettlemoyer, L. (2023). QLoRA: Efficient Finetuning of Quantized LLMs. NeurIPS. [https://arxiv.org/abs/2305.14314](https://arxiv.org/abs/2305.14314)
+- Lyu, Y., et al. (2021). Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup. [https://ar5iv.labs.arxiv.org/html/2101.06983](https://ar5iv.labs.arxiv.org/html/2101.06983)
+- Wolf, T., et al. (2020). Transformers: State-of-the-Art Natural Language Processing. [https://ar5iv.labs.arxiv.org/html/1910.03771](https://ar5iv.labs.arxiv.org/html/1910.03771)
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone [https://ar5iv.labs.arxiv.org/html/2404.14219](https://ar5iv.labs.arxiv.org/html/2404.14219)
+
+
+Keywords:
 text classification, causal language model, CLM, LLM, Phi-3, BERT, sentiment analysis, quantization, LoRA, fine-tuning, NLP, machine learning, automatic classification, polarity analysis, tweets, NLP model for classification, language model optimization, 4-bit quantization, mobile NLP, AI for text classification, Phi-3 vs BERT.
