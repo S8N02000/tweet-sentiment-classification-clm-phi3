@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This project explores the use of a causal language model (CLM), **Phi-3**, for the automatic classification of tweets into positive and negative sentiments. We originally chose this model because of its advantages in terms of text generation and resource optimization. However, after running the experiments and analyzing the results, we observed some inherent limitations of CLMs for classification tasks, which we will detail later in this paper.
+This project explores the use of a **causal Large Language Model (LLM)**, the **Phi-3** model, for the **automatic classification of tweets**. **LLMs**, such as **GPT**, **LLaMA**, or **Mixtral**, are primarily known for their performance in **text generation tasks**, but they can also be adapted for **text classification tasks**, such as sentiment classification in tweets.
 
 This README aims to provide a comprehensive and detailed guide for researchers and developers who wish to replicate this experiment or use a similar CLM model like Phi-3 for text classification tasks.
 
@@ -275,3 +275,6 @@ pip install -r requirements.txt
 ```
 
 This section will allow users to quickly set up the necessary environment to run the notebook and successfully complete the tweet classification project.
+
+# Keywords:
+text classification, causal language model, CLM, LLM, Phi-3, BERT, sentiment analysis, quantization, LoRA, fine-tuning, NLP, machine learning, automatic classification, polarity analysis, tweets, NLP model for classification, language model optimization, 4-bit quantization, mobile NLP, AI for text classification, Phi-3 vs BERT.
